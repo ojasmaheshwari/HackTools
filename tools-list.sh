@@ -20,8 +20,9 @@ mkdir -p tools
 
 cd tools
 
-echo "Installing tplmap: Server-Side Template Injection and Code Injection Detection and Exploitation Tool"
-git clone https://github.com/epinna/tplmap
+echo "Installing SSTImap: Server-Side Template Injection and Code Injection Detection and Exploitation Tool"
+git clone https://github.com/vladko312/SSTImap.git
 
-echo "Installing burpsuite"
 install_if_missing burpsuite "yay -S burpsuite"
+install_if_missing checksec "sudo pacman -S checksec"
+
