@@ -25,4 +25,7 @@ git clone https://github.com/vladko312/SSTImap.git
 
 install_if_missing burpsuite "yay -S burpsuite"
 install_if_missing checksec "sudo pacman -S checksec"
-
+install_if_missing dirbuster "yay -S dirbuster"
+install_if_missing hashcat "sudo pacman -S hashcat"
+install_if_missing nc "sudo pacman -S nmap"
+install_if_missing nmap "sudo pacman -S nmap"
